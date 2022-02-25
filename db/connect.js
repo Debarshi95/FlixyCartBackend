@@ -1,5 +1,4 @@
 const { connect } = require('mongoose');
-
 const { MONGO_URI: uri } = require('../utils/config');
 
 module.exports = async () => {
