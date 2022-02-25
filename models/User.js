@@ -22,10 +22,15 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    cartItems: [
+    cart: {
+      type: Types.ObjectId,
+      ref: 'Book',
+    },
+
+    address: [
       {
         type: Types.ObjectId,
-        ref: 'Book',
+        ref: 'Address',
       },
     ],
   },
