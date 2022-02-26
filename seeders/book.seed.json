@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Do Epic Shit",
+    "image": "/images/do_epic_shit.jpg",
+    "price": 399,
+    "categories": ["Non-Fiction"],
+    "inStock": true,
+    "fastDelivery": true,
+    "rating": 4.5,
+    "author": "Ankur Warikoo",
+    "description":"Ankur Warikoo is an entrepreneur and content creator whose deep, witty and brutally honest thoughts on success and failure, money and investing, self-awareness and personal relationships have made him one of India’s top personal brands. In his first book, Ankur puts together the key ideas that have fuelled his journey – one that began with him wanting to be a space engineer and ended with him creating content that has been seen and read by millions. His thoughts range from the importance of creating habits for long-term success to the foundations of money management, from embracing and accepting failure to the real truth about learning empathy. This is a book to be read, and reread, a book whose lines you will underline and think about again and again, a book you will give your family and friends and strangers. Ankur hopes for this book to become the most gifted book ever!"
+  },
+  {
+    "title": "Wish I could tell you",
+    "image": "/images/wish_could_tell_you.jpg",
+    "price": 299,
+    "categories": ["Romanance novel", "Fiction"],
+    "inStock": true,
+    "fastDelivery": true,
+    "rating": 4.2,
+    "author": "Durjoy Datta",
+    "description":"A disillusioned and heartbroken Anusha finds herself in the small world of WeDonate.com. Struggling to cope with her feelings and the job of raising money for charity, she reluctantly searches for a worthwhile cause to support."
+  },
+  {
+    "title": "One arrange murder",
+    "image": "/images/one_arranged_murder.jpg",
+    "price": 499,
+    "categories": ["Fiction","Mystery","Thriller"],
+    "inStock": true,
+    "fastDelivery": true,
+    "rating": 4.0,
+    "author": "Chetan Bhagat",
+    "description":"One Arranged Murder, an unputdownable thriller from India?s highest-selling author. A story about love, friendship, family and crime, it will keep you entertained and hooked right till the end."
+  },
+  {
+    "title": "The monk who sold his Ferrari",
+    "image": "/images/monk_sold_ferrari.jpg",
+    "price": 199,
+    "categories": ["Fiction"],
+    "inStock": true,
+    "fastDelivery": true,
+    "rating": 4.7,
+    "author": "Robin Sharma",
+    "description":"A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer?s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India."
+  },
+  {
+    "title": "Wise and otherwise",
+    "image": "/images/wise_and_otherwise.jpg",
+    "price": 199,
+    "categories": ["Non-Fiction"],
+    "inStock": true,
+    "fastDelivery": true,
+    "rating": 4.1,
+    "author": "Sudha Murthy",
+    "description":"Understanding human and human nature is one of the toughest jobs .Many time what seems right and good or vice versa can be completely different if explored to proper depth. In many instance, we all come across people and forms an opinion about the people we meet without actually knowing anything about them. But hearing and learning about such instances helps us to redefine our thought process and become wiser. Sudha Murtys book Wise and otherwise will take you to a journey across the length and breadth of India through narrations of 51 stories inspired by the extensive travels of the author herself."
+  },
+  {
+    "title": "The power of subconscious mind",
+    "image": "/images/subconscious_mind.jpg",
+    "price": 599,
+    "categories": ["Self-help"],
+    "inStock": false,
+    "fastDelivery": false,
+    "rating": 4.2,
+    "author": "Dr. Joseph Murphy",
+    "description":"This remarkable book by Dr. Joseph Murphy, one of the pioneering voices of affirmative thinking, will unlock for you the truly staggering powers of your subconscious mind. Combining time-honored spiritual wisdom with cutting edge scientific research, Dr. Murphy explains how the subconscious mind influences every single thing that you do and how, by understanding it and learning to control its incredible force, you can improve the quality of your daily life."
+  },
+  {
+    "title": "A man called Ove",
+    "image": "/images/man_ove.jpg",
+    "price": 699,
+    "categories": ["Novel", "Fiction"],
+    "inStock": false,
+    "fastDelivery": false,
+    "rating": 4.3,
+    "author": "Fredrik Backman",
+    "description":"A grumpy yet loveable man finds his solitary world turned on its head when a boisterous young family moves in next door."
+  },
+  {
+    "title": "The Alchemist",
+    "image": "/images/alchemist.jpg",
+    "price": 899,
+    "categories": ["Quest", "Adventure", "Fantasy","Drama"],
+    "inStock": true,
+    "fastDelivery": false,
+    "rating": 4.8,
+    "author": "Panlo Coelho",
+    "description":"Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago, who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids."
+  },
+  {
+    "title": "Ikigai",
+    "image": "/images/ikigai.jpg",
+    "price": 399,
+    "categories": ["Self-help"],
+    "inStock": true,
+    "fastDelivery": false,
+    "rating": 4.4,
+    "author": "Hector Garcia & Francesc Miralles",
+    "description":"In The Ikigai Journey, authors Hector Garcia and Francesc Miralles take their international bestseller Ikigai: the Japanese Secret to a Long and Happy Life a step further by showing you how to find your own ikigai through practical exercises, such as employing new habits and stepping outside your comfort zone."
+  },
+  {
+    "title": "As a man thinketh",
+    "image": "/images/thinketh.jpg",
+    "price": 599,
+    "categories": ["Self-help"],
+    "inStock": true,
+    "fastDelivery": false,
+    "rating": 4.3,
+    "author": "James Allen",
+    "description":"At its heart lies the marriage of Peter and Maureen Tarnopol, a gifted young writer and the woman who wants to be his muse but who instead is his nemesis. Their union is based on fraud and shored up by moral blackmail, but it is so perversely durable that, long after Maureen’s death, Peter is still trying—and failing—to write his way free of it."
+  },
+  {
+    "title": "It ends with us",
+    "image": "/images/ends_with_us.jpg",
+    "price": 699,
+    "categories": ["Romanance novel", "Fiction"],
+    "inStock": false,
+    "fastDelivery": true,
+    "rating": 4.2,
+    "author": "Colleen Hoover",
+    "description":"It Ends With Us is a heart-wrenching story and an unforgettable tale of love that comes at the ultimate price."
+  },
+  {
+    "title": "The silent patient",
+    "image": "/images/silent_patient.jpg",
+    "price": 399,
+    "categories": ["Thriller", "Novel", "Suspense"],
+    "inStock": false,
+    "fastDelivery": false,
+    "rating": 4.1,
+    "author": "Alex Michaelides",
+    "description":"A gruesome murder, a woman held captive in her own mind, and a therapist determined to unlock her secrets - what’s not to love about Alex Michaelides’ THE SILENT PATIENT? "
+  },
+  {
+    "title": "Eloquent JavaScript",
+    "image": "/images/ejs.jpg",
+    "price": 699,
+    "categories": ["Programming"],
+    "inStock": true,
+    "fastDelivery": true,
+    "rating": 4.9,
+    "author": "Marijn Haverbeke",
+    "description":"JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications."
+  },
+  {
+    "title": "The girl in room 105",
+    "image": "/images/room_105.jpg",
+    "price": 499,
+    "categories": ["Novel","Fiction","Mystery"],
+    "inStock": true,
+    "fastDelivery": false,
+    "rating": 4.4,
+    "author": "Chetan Bhagat",
+    "description":"A Murder Mystery, weaved around the tissues of love, connecting all the characters with one major plot pillar, and each other."
+  },
+  {
+    "title": "The Mistake : A True Love Story",
+    "image": "/images/mistake.jpg",
+    "price": 299,
+    "categories": ["Romanance novel"],
+    "inStock": true,
+    "fastDelivery": false,
+    "rating": 4.3,
+    "author": "Bishwanath Singh",
+    "description":"Vijay Singh an enthusiastic student steps into the engineering college and he meets Ankita, a girl with a dark past. He follows her and does crazy things to get her. His passion for her is undying and he will finally get the acceptance from her. Unfortunately, he meets with an accident and gets admitted to the hospital. Fate takes a strange turn."
+  },
+  {
+    "title": "Little life",
+    "image": "/images/midnight_library.jpg",
+    "price": 499,
+    "categories": ["Novel","Domestic fiction"],
+    "inStock": true,
+    "fastDelivery": true,
+    "rating": 4.5,
+    "author": "Hanya Yanagihara",
+    "description":"When four classmates from a small Massachusetts college move to New York to make their way, they're broke, adrift, and buoyed only by their friendship and ambition. There is kind, handsome Willem, an aspiring actor; JB, a quick-witted, sometimes cruel Brooklyn-born painter seeking entry to the art world; Malcolm, a frustrated architect at a prominent firm; and withdrawn, brilliant, enigmatic Jude, who serves as their center of gravity. Over the decades, their relationships deepen and darken, tinged by addiction, success, and pride. Yet their greatest challenge, each comes to realize, is Jude himself, by midlife a terrifyingly talented litigator yet an increasingly broken man, his mind and body scarred by an unspeakable childhood, and haunted by what he fears is a degree of trauma that he’ll not only be unable to overcome—but that will define his life forever. In rich and resplendent prose, Yanagihara has fashioned a tragic and transcendent hymn to brotherly love, a masterful depiction of heartbreak, and a dark examination of the tyranny of memory and the limits of human endurance."
+  }
+]
