@@ -3,7 +3,7 @@ const Book = require('../models/Book');
 
 const getAllBooks = async (_, res) => {
   const books = await Book.find({});
-  return res.status(StatusCodes.OK).json({ results: books });
+  return res.status(StatusCodes.OK).json({ result: books });
 };
 
 const getBook = async (req, res) => {
