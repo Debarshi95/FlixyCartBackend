@@ -1,7 +1,7 @@
 [
   {
     "title": "Do Epic Shit",
-    "image": "/images/do_epic_shit.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/do_epic_shit.jpg",
     "price": 399,
     "categories": ["Non-Fiction"],
     "inStock": true,
@@ -12,7 +12,7 @@
   },
   {
     "title": "Wish I could tell you",
-    "image": "/images/wish_could_tell_you.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/wish_could_tell_you.jpg",
     "price": 299,
     "categories": ["Romanance novel", "Fiction"],
     "inStock": true,
@@ -23,7 +23,7 @@
   },
   {
     "title": "One arrange murder",
-    "image": "/images/one_arranged_murder.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/one_arranged_murder.jpg",
     "price": 499,
     "categories": ["Fiction","Mystery","Thriller"],
     "inStock": true,
@@ -34,7 +34,7 @@
   },
   {
     "title": "The monk who sold his Ferrari",
-    "image": "/images/monk_sold_ferrari.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/monk_sold_ferrari.jpg",
     "price": 199,
     "categories": ["Fiction"],
     "inStock": true,
@@ -45,7 +45,7 @@
   },
   {
     "title": "Wise and otherwise",
-    "image": "/images/wise_and_otherwise.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/wise_and_otherwise.jpg",
     "price": 199,
     "categories": ["Non-Fiction"],
     "inStock": true,
@@ -56,7 +56,7 @@
   },
   {
     "title": "The power of subconscious mind",
-    "image": "/images/subconscious_mind.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/subconscious_mind.jpg",
     "price": 599,
     "categories": ["Self-help"],
     "inStock": false,
@@ -67,7 +67,7 @@
   },
   {
     "title": "A man called Ove",
-    "image": "/images/man_ove.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/man_ove.jpg",
     "price": 699,
     "categories": ["Novel", "Fiction"],
     "inStock": false,
@@ -78,7 +78,7 @@
   },
   {
     "title": "The Alchemist",
-    "image": "/images/alchemist.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/alchemist.jpg",
     "price": 899,
     "categories": ["Quest", "Adventure", "Fantasy","Drama"],
     "inStock": true,
@@ -89,7 +89,7 @@
   },
   {
     "title": "Ikigai",
-    "image": "/images/ikigai.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/ikigai.jpg",
     "price": 399,
     "categories": ["Self-help"],
     "inStock": true,
@@ -100,7 +100,7 @@
   },
   {
     "title": "As a man thinketh",
-    "image": "/images/thinketh.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/thinketh.jpg",
     "price": 599,
     "categories": ["Self-help"],
     "inStock": true,
@@ -111,7 +111,7 @@
   },
   {
     "title": "It ends with us",
-    "image": "/images/ends_with_us.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/ends_with_us.jpg",
     "price": 699,
     "categories": ["Romanance novel", "Fiction"],
     "inStock": false,
@@ -122,7 +122,7 @@
   },
   {
     "title": "The silent patient",
-    "image": "/images/silent_patient.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/silent_patient.jpg",
     "price": 399,
     "categories": ["Thriller", "Novel", "Suspense"],
     "inStock": false,
@@ -133,7 +133,7 @@
   },
   {
     "title": "Eloquent JavaScript",
-    "image": "/images/ejs.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/ejs.jpg",
     "price": 699,
     "categories": ["Programming"],
     "inStock": true,
@@ -144,7 +144,7 @@
   },
   {
     "title": "The girl in room 105",
-    "image": "/images/room_105.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/room_105.jpg",
     "price": 499,
     "categories": ["Novel","Fiction","Mystery"],
     "inStock": true,
@@ -155,7 +155,7 @@
   },
   {
     "title": "The Mistake : A True Love Story",
-    "image": "/images/mistake.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/mistake.jpg",
     "price": 299,
     "categories": ["Romanance novel"],
     "inStock": true,
@@ -166,7 +166,7 @@
   },
   {
     "title": "Little life",
-    "image": "/images/midnight_library.jpg",
+    "image": "https://flixycart-backend.herokuapp.com/images/midnight_library.jpg",
     "price": 499,
     "categories": ["Novel","Domestic fiction"],
     "inStock": true,
