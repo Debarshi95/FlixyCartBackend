@@ -6,54 +6,55 @@ const { SECRET } = require('../utils/config');
 const User = require('../models/User');
 
 const loginUser = async (req, res) => {
-  const { email, password } = req;
+  const { email, password } = req.body;
+
   const user = await User.findOne({ email });
 
   if (!user) {
     return res
       .status(StatusCodes.NOT_FOUND)
-      .json({ error: 'User not registered' });
+      .json({ error: true, message: 'User not registered' });
   }
   const passwordMatch = await bcrypt.compare(password, user.password);
 
   if (!passwordMatch) {
     return res
       .status(StatusCodes.BAD_REQUEST)
-      .json({ error: 'Invalid email or password' });
+      .json({ error: true, message: 'Invalid email or password' });
   }
 
   const tokenPayload = {
     id: user._id,
   };
-  const token = jwt.sign(tokenPayload, SECRET, {
+
+  const token = await jwt.sign(tokenPayload, SECRET, {
     expiresIn: '7d',
   });
 
   return res.status(StatusCodes.OK).json({
-    token,
+    success: true,
     id: user._id,
-    username: user.username,
     email: user.email,
+    username: user.username,
+    token,
   });
 };
 
 const registerUser = async (req, res) => {
-  const { firstname, lastname, username, email, password } = req.body;
+  const { username, email, password } = req.body;
 
   const user = await User.findOne({ email });
 
   if (user) {
     return res
       .status(StatusCodes.BAD_REQUEST)
-      .json({ error: 'User already registered with the email or username' });
+      .json({ error: true, message: 'User already registered' });
   }
 
   const saltRound = 10;
   const passwordHash = await bcrypt.hash(password, saltRound);
 
   const newUser = new User({
-    firstname,
-    lastname,
     username,
     email,
     password: passwordHash,
@@ -64,17 +65,19 @@ const registerUser = async (req, res) => {
   const tokenPayload = {
     id: savedUser._id,
   };
-  const token = jwt.sign(tokenPayload, SECRET, {
+  const token = await jwt.sign(tokenPayload, SECRET, {
     expiresIn: '7d',
   });
 
   return res.status(StatusCodes.OK).json({
-    token,
+    success: true,
     id: savedUser._id,
-    username: savedUser.username,
     email: savedUser.email,
+    username: savedUser.username,
+    token,
   });
 };
+
 module.exports = {
   loginUser,
   registerUser,
