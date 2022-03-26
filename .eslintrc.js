@@ -12,5 +12,6 @@ module.exports = {
     'implicit-arrow-linebreak': 'off',
     'object-curly-newline': 'off',
     'no-underscore-dangle': 'off',
+    indent: 'off',
   },
 };
