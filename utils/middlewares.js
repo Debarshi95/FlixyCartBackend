@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const { StatusCodes } = require('http-status-codes');
 const User = require('../models/User');
+const { SECRET } = require('./config');
 
 const errorHandler = (error, _, res, next) => {
   console.error({ error });
@@ -37,7 +38,7 @@ const verifyToken = async (req, res, next) => {
       });
     }
 
-    const decodedToken = await jwt.verify(token);
+    const decodedToken = await jwt.verify(token, SECRET);
 
     if (!decodedToken) {
       return res.status(StatusCodes.UNAUTHORIZED).json({
