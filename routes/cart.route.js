@@ -5,10 +5,11 @@ const {
   deleteFromCart,
   getCartItems,
 } = require('../controllers/cart.controller');
+const { verifyToken } = require('../utils/middlewares');
 
 const router = Router();
 
-router.use(cartHandler);
+router.use(verifyToken, cartHandler);
 router.get('/', getCartItems);
 router.post('/', addToCart);
 router.delete('/', deleteFromCart);
