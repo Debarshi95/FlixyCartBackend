@@ -78,26 +78,24 @@ const addToCart = async (req, res) => {
 };
 
 const deleteFromCart = async (req, res) => {
-  const { id } = req.cart;
-  const { cartItem } = req.body;
+  const { cart } = req;
+  const { id } = req.body;
 
-  const cart = await Cart.findOne({ id });
+  const book = await Book.findOne({ _id: id });
 
-  const filteredProducts = cart.products.map((product) => {
-    if (product?._id === cartItem.id) {
-      return {
-        ...product,
-        quantity: product.quantity + cartItem.quantity,
-      };
-    }
-    return product;
-  });
+  if (!book) {
+    return res
+      .status(StatusCodes.NOT_FOUND)
+      .json({ error: true, message: "Book doesn't exist with the given ID" });
+  }
+
+  const filteredProducts = cart.products.filter((product) => !product.bookId.equals(book._id));
 
   cart.products = filteredProducts;
   await cart.save();
 
   const populatedData = await cart.populate({
-    path: 'products',
+    path: 'products.bookId',
     select: '-createdAt',
   });
 
