@@ -16,6 +16,10 @@ const bookSchema = new Schema(
     categories: {
       type: Array,
     },
+    description: {
+      type: String,
+
+    },
     inStock: {
       type: Boolean,
       default: true,
