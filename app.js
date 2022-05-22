@@ -18,12 +18,13 @@ const bookRoute = require('./routes/books.route');
 const cartRoute = require('./routes/cart.route');
 const authRoute = require('./routes/auth.route');
 const addressRoute = require('./routes/address.route');
+const orderRoute = require('./routes/order.route');
 const { errorHandler } = require('./utils/middlewares');
 
 app.use('/api/books', bookRoute);
 app.use('/api/cart', cartRoute);
 app.use('/api/auth', authRoute);
-app.use('/api/user', addressRoute);
+app.use('/api/user', addressRoute, orderRoute);
 app.use(errorHandler);
 
 module.exports = app;

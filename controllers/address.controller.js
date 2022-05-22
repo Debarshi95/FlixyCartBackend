@@ -14,13 +14,14 @@ const getAllAddress = async (req, res) => {
 
 const createAddress = async (req, res) => {
   const id = req.user;
-  const { phoneNumber, addressLine, state, pin } = req.body;
+  const { phoneNumber, addressLine, state, pin, fullname } = req.body;
 
   if (!phoneNumber || !addressLine || !state || !pin) {
     return res.status(StatusCodes.OK).json({ error: 'Complete address data not provided' });
   }
 
   const newAddress = new Address({
+    fullname,
     phoneNumber,
     addressLine,
     state,
@@ -40,7 +41,7 @@ const createAddress = async (req, res) => {
 
 const updateAddress = async (req, res) => {
   const id = req.user;
-  const { phoneNumber, addressLine, state, pin } = req.body;
+  const { phoneNumber, addressLine, state, pin, fullname } = req.body;
   const { addressId } = req.params;
 
   const address = await Address.findOne({ $and: [{ id: addressId }, { userId: id }] });
@@ -49,6 +50,7 @@ const updateAddress = async (req, res) => {
     return res.status(StatusCodes.OK).json({ error: 'No address found!' });
   }
 
+  address.fullname = fullname;
   address.phoneNumber = phoneNumber;
   address.addressLine = addressLine;
   address.state = state;

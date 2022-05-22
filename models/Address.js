@@ -2,6 +2,10 @@ const { Schema, model, Types } = require('mongoose');
 
 const addressSchema = new Schema(
   {
+    fullname: {
+      type: String,
+      required: true,
+    },
     phoneNumber: {
       type: String,
       required: true,
