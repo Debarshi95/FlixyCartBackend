@@ -10,6 +10,10 @@ const orderSchema = new Schema(
       },
     ],
     address: [{ type: Types.ObjectId, ref: 'Address' }],
+    paymentId: {
+      type: String,
+      required: true,
+    },
   },
   { timestamps: true },
 );

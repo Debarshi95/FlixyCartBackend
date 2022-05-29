@@ -16,19 +16,27 @@ const getAllOrders = async (req, res) => {
 
 const createOrder = async (req, res) => {
   const id = req.user;
-  const { addressId, cartId } = req.body;
+  const { addressId, cartId, paymentId } = req.body;
 
   const address = await Address.findOne({ $and: [{ id: addressId }, { userId: id }] });
 
+  if (!paymentId) {
+    return res.status(StatusCodes.BAD_REQUEST).json({ error: 'Payment details no found' });
+  }
   if (!address) {
-    return res.status(StatusCodes.OK).json({ error: 'No address found!' });
+    return res.status(StatusCodes.BAD_REQUEST).json({ error: 'No address found!' });
   }
 
   const cart = await Cart.findOne({ $and: [{ id: cartId }, { userId: id }] });
+
+  if (!cart) {
+    return res.status(StatusCodes.BAD_REQUEST).json({ error: 'Cart details not found!' });
+  }
   const newOrder = new Orders({
     products: cart.products,
     address,
     userId: id,
+    paymentId,
   });
 
   await newOrder.save();
